@@ -3,3 +3,7 @@ terraform.tfstate.backup
 *.ppk
 .terraform/
 .terraform.lock.hcl
+.terraform.tfstate.lock.infos
+
+
+

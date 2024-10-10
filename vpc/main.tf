@@ -33,7 +33,7 @@ resource "aws_security_group_rule" "ssh" {
   from_port         = 22
   to_port           = 22
   protocol          = "tcp"
-  cidr_blocks       = ["152.58.195.250/32"]
+  cidr_blocks       = ["152.58.209.20/32"]
   security_group_id = aws_security_group.allow_jenkins.id
 }
 resource "aws_security_group_rule" "allow_jenlins" {
