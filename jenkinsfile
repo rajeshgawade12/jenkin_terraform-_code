@@ -1,0 +1,15 @@
+Pipeline {
+    agent any
+    tools{
+        mevan
+    }
+    stages{
+        stage ("compile") {
+            steps{
+                git 
+            }
+
+
+         }
+    }
+}
